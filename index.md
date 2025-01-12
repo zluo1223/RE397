@@ -20,7 +20,15 @@ About myself.
 3. I will set up a regular office hour on Friday between 2:00pm - 3:00 pm via [Zoom](https://washington.zoom.us/j/95676546990) to answer lab questions.
 4. Lab will be recorded and you will find recording link on this webpage later!!
 
-### Discussion: Why Data Modeling? 
+## Discussion: Why Data Modeling? 
+![attachsytem](attachsystem.png)
 
-### Lab 1
+## Lab 1
 *January 14, 2025*
+### Net migration share
+1. Go to [Census annual net migration data and population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-metro-and-micro-statistical-areas.html)
+2. Find **cbsa-est2023-alldata**
+3. Sort by **POPESTIMATE2023** high to low, then select **Metropolitan Statistical Area** under column "LSAD"
+4. Select top 100 (101 records) and copy-and-paste three fields
+5. It is your first sheet and should look at ![this](sheet1)
+6. 

@@ -30,5 +30,4 @@ About myself.
 2. Find **cbsa-est2023-alldata**
 3. Sort by **POPESTIMATE2023** high to low, then select **Metropolitan Statistical Area** under column "LSAD"
 4. Select top 100 (101 records) and copy-and-paste three fields
-5. It is your first sheet and should look at ![this](sheet1.png)
-6. 
+5. It is your first sheet and should look like ![this](sheet1.png)

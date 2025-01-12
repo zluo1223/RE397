@@ -6,7 +6,7 @@
 
 ## Introduction
 
-About myself
+About myself.
 
 [Welcome to connect me on Linkedin](https://www.linkedin.com/in/zhongmin-luo-9b5400221/)
 

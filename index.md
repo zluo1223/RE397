@@ -34,3 +34,6 @@ Find **cbsa-est2023-alldata**
 2. Population change rate
 > same step as net migration share
 3. Share of recent constructed residential
+> select the table **Table B25127** then the year of 2023, then under “Geographies” -> “Metropolitan/Micropolitan Statistical Area” -> all metropolitan statistical areas in the US and PR
+
+>Downloading data with GEOID! Remove Margin of Error! Transpose!

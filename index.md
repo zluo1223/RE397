@@ -25,9 +25,12 @@ About myself.
 
 ## Lab 1
 *January 14, 2025*
-### Net migration share
-1. Go to [Census annual net migration data and population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-metro-and-micro-statistical-areas.html)
-2. Find **cbsa-est2023-alldata**
-3. Sort by **POPESTIMATE2023** high to low, then select **Metropolitan Statistical Area** under column "LSAD"
-4. Select top 100 (101 records) and copy-and-paste three fields
-5. It is your first sheet and should look like ![this](sheet1.png)
+### Organize dataset
+1. Assignment folder
+### Download dataset
+1. Net migration share
+> Go to [Census annual net migration data and population estimates](https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-metro-and-micro-statistical-areas.html)
+Find **cbsa-est2023-alldata**
+2. Population change rate
+> same step as net migration share
+3. Share of recent constructed residential

@@ -40,3 +40,10 @@ Find **cbsa-est2023-alldata**
 1. **When you are downloading dataset from the Census website, you should click `ZIP` because using the zip option, the data format will come the way we need for this project. You do not need to remove the MOE or Transpose before downloading, although doing so will not have any issue for the final results.**
 2. “OCC_Tittle” in the section of "Employment" is just a column name in the dataset. You do not need to worry about that for Lab1. This is for Thursday or next week’s lab.
 3. we use `2020 5-year estimate` which is inconsistent with `2023 1-year estimate` because of COVID, the survey response was extremely low and `margin of error` was too high in many places to generate reliable/meaningful estimates, that is why Census only published `5-year estimates` for 2020.
+
+##Lab 2
+*January 21, 2025*
+###Practice 4
+###Assignment 1 continue
+1. Share of recent constructed residential units
+> Create 5-digit MSA ID based on GEOID from the Census ACS downloads. Use Excel formula “=right([CELL], 5)” to extract the last 5 digit of each GEOID. You will need to use this as the common field to join other datasets. After converting, a best practice is to copy and paste value in the same column, and convert text to number

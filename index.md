@@ -43,7 +43,7 @@ Find **cbsa-est2023-alldata**
 
 ## Lab 2
 *January 21, 2025*
-### Practice 4
+### Questions for Practice 4 (30mins)
 ### Assignment 1 continue
 1. Share of recent constructed residential units
 > Create 5-digit MSA ID based on GEOID from the Census ACS downloads. Use Excel formula “=right([CELL], 5)” to extract the last 5 digit of each GEOID. You will need to use this as the common field to join other datasets. After converting, a best practice is to copy and paste value in the same column, and convert text to number

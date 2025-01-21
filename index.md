@@ -47,3 +47,18 @@ Find **cbsa-est2023-alldata**
 ### Assignment 1 continue
 1. Share of recent constructed residential units
 > Create 5-digit MSA ID based on GEOID from the Census ACS downloads. Use Excel formula “=right([CELL], 5)” to extract the last 5 digit of each GEOID. You will need to use this as the common field to join other datasets. After converting, a best practice is to copy and paste value in the same column, and convert text to number
+2. Price Rent Ratio
+> copy and paste data you downloaded to the sheet of Price rent ratio and join data through GEOID
+> To join datasets, use `VLOOKUP` function in Excel
+
+**VLOOKUP=(lookup_value, table_array, col_index_num, [range_lookup])**
+1. lookup_value
+The value you want to search for in the first column of the table_array.
+2. table_array
+The range of cells (e.g., *A1:D10*) containing the data. The first column of this range is where lookup_value will be searched.
+3. col_index_num
+The column number (starting from 1 for the first column of table_array) from which the value will be returned.
+4. [range_lookup] (Optional)
+A logical value that specifies whether you want an exact match or an approximate match:
+TRUE (or omitted): Finds the closest match that is less than or equal to the lookup_value. The first column must be sorted in ascending order.
+FALSE: Finds an exact match. If no exact match is found, the function returns #N/A.

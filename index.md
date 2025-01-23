@@ -46,10 +46,23 @@ Find **cbsa-est2023-alldata**
 ### Questions for Practice 4 (30mins)
 ### Assignment 1 continue
 1. Share of recent constructed residential units
-> Create 5-digit MSA ID based on GEOID from the Census ACS downloads. Use Excel formula “=right([CELL], 5)” to extract the last 5 digit of each GEOID. You will need to use this as the common field to join other datasets. After converting, a best practice is to copy and paste value in the same column, and convert text to number
+* First, you should find these three variables **`Estimate!!Total:`	`Estimate!!Total:!!Owner occupied:!!Built 2020 or later:`	`Estimate!!Total:!!Renter occupied:!!Built 2020 or later:`** from `B25127` you downloaded from ACS website.
+![see](B25127)
+* Second, Create 5-digit MSA ID based on GEOID from the Census ACS downloads. Use Excel formula “=right([CELL], 5)” to extract the last 5 digit of each GEOID. You will need to use this as the common field to join other datasets. After converting, a best practice is to copy and paste value in the same column, and convert text to number
+* calculate Share of recent constructed residential unites using the formula:
+> (“Owner occupied:!!Built 2020 or later:” + “Renter occupied:!!Built 2020 or later:”) / “Total:”
+Your calculation should be like ![this](sharecal.png)
+
 2. Price Rent Ratio
-> copy and paste data you downloaded to the sheet of Price rent ratio and join data through GEOID
-> To join datasets, use `VLOOKUP` function in Excel
+* remember you should have two different dataset downloaded from ACS website. ![Look](pricetorent)
+* copy and paste `Estimate!!Median value (dollars)`	`Estimate!!Median gross rent` data **separately** on your sheet
+* For each data table, create numeric `GEOID` as we do in the second step in Share of recent residential unit above.
+* create another next to your Median Value column called Median Gross Rent.
+* Use VLOOKUP function to join the Median Gross Rent data to Median Value data. Below is the detail of VLOOKUP function in excel. You can also look at this [video](https://www.youtube.com/watch?v=xIynD1gFOLo).
+* Finally calcuate Price rent ratio using the formula:
+>“Median value (dollars)” / (“Median gross rent” * 12)
+** Be care of bracketing median gross rent multiplied by 12**
+Your result should look like ![this](pricerent)
 
 **VLOOKUP=(lookup_value, table_array, col_index_num, [range_lookup])**
 1. lookup_value

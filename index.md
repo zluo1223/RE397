@@ -54,7 +54,7 @@ Find **cbsa-est2023-alldata**
 Your calculation should be like ![this](sharecal.png)
 
 2. Price Rent Ratio
-* remember you should have two different dataset downloaded from ACS website. ![Look](pricetorent)
+* remember you should have two different dataset downloaded from ACS website. ![Look](pricetorent.png)
 * copy and paste `Estimate!!Median value (dollars)`	`Estimate!!Median gross rent` data **separately** on your sheet
 * For each data table, create numeric `GEOID` as we do in the second step in Share of recent residential unit above.
 * create another next to your Median Value column called Median Gross Rent.
@@ -62,7 +62,7 @@ Your calculation should be like ![this](sharecal.png)
 * Finally calcuate Price rent ratio using the formula:
 >“Median value (dollars)” / (“Median gross rent” * 12)
 ** Be care of bracketing median gross rent multiplied by 12**
-Your result should look like ![this](pricerent)
+Your result should look like ![this](pricerent.png)
 
 **VLOOKUP=(lookup_value, table_array, col_index_num, [range_lookup])**
 1. lookup_value

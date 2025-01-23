@@ -47,7 +47,7 @@ Find **cbsa-est2023-alldata**
 ### Assignment 1 continue
 1. Share of recent constructed residential units
 * First, you should find these three variables **`Estimate!!Total:`	`Estimate!!Total:!!Owner occupied:!!Built 2020 or later:`	`Estimate!!Total:!!Renter occupied:!!Built 2020 or later:`** from `B25127` you downloaded from ACS website.
-![see](B25127)
+![see](B25127.png)
 * Second, Create 5-digit MSA ID based on GEOID from the Census ACS downloads. Use Excel formula “=right([CELL], 5)” to extract the last 5 digit of each GEOID. You will need to use this as the common field to join other datasets. After converting, a best practice is to copy and paste value in the same column, and convert text to number
 * calculate Share of recent constructed residential unites using the formula:
 > (“Owner occupied:!!Built 2020 or later:” + “Renter occupied:!!Built 2020 or later:”) / “Total:”

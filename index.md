@@ -70,7 +70,7 @@ The value you want to search for in the first column of the table_array.
 2. table_array
 The range of cells (e.g., *A1:D10*) containing the data. The first column of this range is where lookup_value will be searched.
 3. col_index_num
-4. The column number (starting from 1 for the first column of table_array) from which the value will be returned.
+The column number (starting from 1 for the first column of table_array) from which the value will be returned.
 5. [range_lookup] (Optional)
 A logical value that specifies whether you want an exact match or an approximate match:
 TRUE (or omitted): Finds the closest match that is less than or equal to the lookup_value. The first column must be sorted in ascending order.
@@ -80,7 +80,7 @@ FALSE: Finds an exact match. If no exact match is found, the function returns #N
 ### Lab 3
 *1.28.2025*
 1. Poll Everywhere: Learn feedback from students.
-2. Professor Wang's lab recording is available [video](https://washington.zoom.us/rec/share/hVrUHCj2BcmUEB78oV0v_OZ9Lo7S_YPp3aPZkzYJvQCEBaAwbNxPjfMDBRb7ZGjX.J75yRutD1-2UMLwb)
+2. Professor Wang's lab recording is available [here](https://washington.zoom.us/rec/share/hVrUHCj2BcmUEB78oV0v_OZ9Lo7S_YPp3aPZkzYJvQCEBaAwbNxPjfMDBRb7ZGjX.J75yRutD1-2UMLwb)
 ## Continue on the rest of four measures!
 1. Rent change rate
 * Copy and paste dataset of 2020 and 2023 Table 25064

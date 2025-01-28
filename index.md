@@ -81,4 +81,30 @@ FALSE: Finds an exact match. If no exact match is found, the function returns #N
 *1.28.2025*
 1. Poll Everywhere: Learn feedback from students.
 2. Professor Wang's lab recording is available [video](https://washington.zoom.us/rec/share/hVrUHCj2BcmUEB78oV0v_OZ9Lo7S_YPp3aPZkzYJvQCEBaAwbNxPjfMDBRb7ZGjX.J75yRutD1-2UMLwb)
-3. Continue on the rest of four measures!
+## Continue on the rest of four measures!
+1. Rent change rate
+* Copy and paste dataset of 2020 and 2023 Table 25064
+* Create GEOID for both dataset
+* Calculate inflation rate for `B25064_001E`
+* VLOOKUP data. Join 2020 inflation-adjusted dataset to 2023 dataset as we did last week.
+* Calculate rent change by
+> (2023 median rent – 2020 inflation-adjusted median rent) / 2020 inflation-adjusted median rent
+
+2. Employment change rate
+* Filter “OCC_TITLE” (column J) = All Occupations in 2020 and 2023 employment dataset
+* Copy and paste data
+* VLOOKUP one dataset to the other
+* Calculate based on formula:
+> (2023 employment count – 2020 employment count) / 2020 employment count
+
+3. Your turn!
+4. Change in percentage of renters
+* Find `Estimate!!Total:`and `Estimate!!Total:!!Renter occupied!`in 2020 and 2023 TableB25003.
+* Copy, paste and create GEOID as usual.
+* Calculate percentage of rent change in 2023 and 2020 respectively
+> Estimate!!Total:!!Renter occupied_23/Estimate!!Total
+* VLOOKUP join percentage of rent change in one year to the other year.
+* calculate change based on formula:
+> pct_rent_23 -pct_rent_20
+
+### You are almost done!

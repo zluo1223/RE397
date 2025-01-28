@@ -80,5 +80,5 @@ FALSE: Finds an exact match. If no exact match is found, the function returns #N
 ### Lab 3
 *1.28.2025*
 1. Poll Everywhere: Learn feedback from students.
-2. Professor Wang's lab recording is available [video(https://washington.zoom.us/rec/share/hVrUHCj2BcmUEB78oV0v_OZ9Lo7S_YPp3aPZkzYJvQCEBaAwbNxPjfMDBRb7ZGjX.J75yRutD1-2UMLwb)
+2. Professor Wang's lab recording is available [video](https://washington.zoom.us/rec/share/hVrUHCj2BcmUEB78oV0v_OZ9Lo7S_YPp3aPZkzYJvQCEBaAwbNxPjfMDBRb7ZGjX.J75yRutD1-2UMLwb)
 3. Continue on the rest of four measures!

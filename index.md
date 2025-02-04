@@ -108,3 +108,11 @@ FALSE: Finds an exact match. If no exact match is found, the function returns #N
 > pct_rent_23 -pct_rent_20
 
 ### You are almost done!! YEAHHHHHH!
+
+### Lab4
+*2.4.2025*
+## Resume unfinished Practice7
+## Discussions
+1. Assignment1
+2. Z score and probability
+## Assignment2 starts

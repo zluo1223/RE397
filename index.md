@@ -109,10 +109,26 @@ FALSE: Finds an exact match. If no exact match is found, the function returns #N
 
 ### You are almost done!! YEAHHHHHH!
 
-### Lab4
+### Lab5
 *2.4.2025*
 ## Resume unfinished Practice7
 ## Discussions
 1. Assignment1
 2. Z score and probability
 ## Assignment2 starts
+
+### Lab 6
+*2.11.2025*
+## VLOOKUP Function Problem
+1. try to use absolute reference like this
+    `=VLOOKUP(A2, track!$A:$C, 3, 0)`
+2. autofill manually together
+## Incomeplete remove
+1. know function `if count`
+function we use for this step is `=IF(COUNT(E2,F2,Q2,S2,AE2,AG2)=6,0,1)`
+2. copy and past result with **0**
+## Remove duplicate 
+1. highlight duplicate
+2. remove one of duplicates if they share the same property name and address.
+
+   

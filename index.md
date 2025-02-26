@@ -162,4 +162,4 @@ FALSE: Finds an exact match. If no exact match is found, the function returns #N
 9. Now to answer the question, consider what those coefficients of three Star rates stand for? You need to calculate difference between Star 3 to Star 2, Star 4 to Star 3, and Star 5 to Star4. ![diff](diff.png).
 ## Multivariate
 1. copy and paste same date in simple regression step but remove Star Rating column that Star Rating serves as numeric variable.
-2. Run regression again. ![mul](multi.png).
+2. Run regression again and remember select residule. ![mul](multi.png). 

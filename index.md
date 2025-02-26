@@ -154,8 +154,12 @@ FALSE: Finds an exact match. If no exact match is found, the function returns #N
 1. Select "Star Rating" column and go to Insert tab and select `Pivote Table`.
 2. PivotTable Fields window will pop up.
 3. Drag "Star Rating" and `Rows` and `Values`. When Draging Star Rating to Values, right click "Sum of Star Rating" and change the ![filed setting](field.png). You want to count the number of star rating not summarize all of them. ![1](coun.png]
-4. Get rid of Star Rating **1** because it violates the assumption that you should have enough observations for each category. ![uncheck](uncheck1.png)
+4. Get rid of Star Rating **1** because it violates the assumption that you should have enough observations for each category. ![uncheck](uncheck1.png).
 5. Open Data analysis and select regression. This time `Star Rating` will be independent variable and Avg `Asking/Unit` is dependent variable.
 6. Create k-1 dummies. So insert 3 new columns by "Star Rating" column.
 7. Use `if function`, like `IF(B2=3, 1,0`), which means if cell B2 equals to 3, the new cell will be 1, otherwise it goes to 0. ![dummy](dummy.png). Here our reference category is **star rating 2**.
 8. Run the regression again but this time your should change your input x range, like ![below](dum2.png)
+9. Now to answer the question, consider what those coefficients of three Star rates stand for? You need to calculate difference between Star 3 to Star 2, Star 4 to Star 3, and Star 5 to Star4. ![diff](diff.png).
+## Multivariate
+1. copy and paste same date in simple regression step but remove Star Rating column that Star Rating serves as numeric variable.
+2. Run regression again. ![mul](multi.png).

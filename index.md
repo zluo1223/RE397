@@ -123,12 +123,36 @@ FALSE: Finds an exact match. If no exact match is found, the function returns #N
 1. try to use absolute reference like this
     `=VLOOKUP(A2, track!$A:$C, 3, 0)`
 2. autofill manually together
-## Incomeplete remove
-1. know function `if count`
-function we use for this step is `=IF(COUNT(E2,F2,Q2,S2,AE2,AG2)=6,0,1)`
-2. copy and past result with **0**
+## Remove incomplete data
+1. Know function `if count`
+2. Create a new column and use `=IF(COUNT(E2,F2,Q2,S2,AE2,AG2)=6,0,1)` to check whether variables below have complete information or not.
+- "Number of Units", "Star Rating", "Avg Unit SF", "Avg Asking/Unit", "Year Built", "Number of Stories"
+2. Under `Check` column, filter **0**.
+3. You are supposed to have around 4305 observations after filtering.
 ## Remove duplicate 
-1. highlight duplicate
-2. remove one of duplicates if they share the same property name and address.
-
-   
+1. Copy and paste these 4305 observations to a new sheet
+2. Select `property address` column and use `Conditional Formatting` to hightlight duplicate data.
+3. Filter by color pink.
+4. Select `Ascending` if necessary.
+5. Now you should have around 196 duplicate data and you need to remove them.
+6. Select both `property address` and `property name` column and use `Remove Duplicate`
+7. Clear filter by color
+8. Now you are supposed to have around 42xx observations. (Any number of observations around this number is fine).
+## Assess completeness
+1. Copy and paste these **"Number of Units", "Avg Unit SF", "Avg Asking/Unit", "Year Built", "Number of Stories"** of 42xx observations, to a new sheet called "assess completeness" (or whatever you want to call).
+2. Go back to the step of "Remove incomplete data" and filter **1**
+3. After you filter **1**, you will have around 2130 observations.
+4. Copy and paste **"Number of Units", "Avg Unit SF", "Avg Asking/Unit", "Year Built", "Number of Stories"** of 2130 observations, to the same sheet.
+> You can do this step with two methods. One just copy and paste it to "assess completeness" and then do the t-test. Second, you besides independent and dependend variables, copy and paste "Property Address" and "Property Name" as well. Then remove duplicate data as what we do in the step of "Remove duplicate".
+5. Open your Data Anlysis tool and select `t-Test: Two-Sample Assuming Equal Variances` and select the column of variable you want to compare, like ![below](ttest1.png). (Here I am comparing `Year Built` variable and you should do the rest of other variables)
+## Correlation
+1. Create a new sheet, copy and paste 42xx observations with complete and also non-duplicate data to it.
+2. You should have following variables:
+- "Number of Units", "Star Rating", "Avg Unit SF", "Avg Asking/Unit", "Year Built", "Number of Stories"
+4. Open your Data analysis tool and select `correlation` and inser things like ![below](corre.png).
+## Simple Regression
+1. Select "Star Rating" column and go to Insert tab and select `Pivote Table`.
+2. PivotTable Fields window will pop up.
+3. Drag "Star Rating" and `Rows` and `Values`. When Draging Star Rating to Values, right click "Sum of Star Rating" and change the ![filed setting](field.png). You want to count the number of star rating not summarize all of them. ![1](coun.png]
+4. Open Data analysis and select regression. This time `Star Rating` will be independent variable and Avg `Asking/Unit` is dependent variable.
+5. 
